@@ -1,7 +1,6 @@
 body {
 	background-color: #b3cce6;
 	padding: 30px, 50px, 30px, 50px;
-	text-align: center;
 }
 
 p {
@@ -19,4 +18,8 @@ img {
 	border-style: solid;
 	border-width: 15px;
 	border-color: #264d73;
+}
+
+.wrapper {
+	text-align: center;
 }
