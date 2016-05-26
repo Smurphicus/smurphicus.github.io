@@ -23,3 +23,7 @@ img {
 .wrapper {
 	text-align: center;
 }
+
+button {
+	position: absolute;
+}
