@@ -1,9 +1,9 @@
 function resetOutput(){
-	document.getElementById("test").innerHTML = "( ͡° ͜ʖ ͡°)";
+	setTimeout(document.getElementById("test").innerHTML = "( ͡° ͜ʖ ͡°)", 3000);
 };
 
 function ayyLmao(){ 
 	document.getElementById("test").innerHTML = "Ayy Lmao.";
-	setTimeout(resetOutput(), 3000);
+	resetOutput();
 };
 
