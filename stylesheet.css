@@ -1,6 +1,5 @@
 body {
 	background-color: #b3cce6;
-	padding: 30px, 50px, 30px, 50px;
 }
 
 p {
@@ -22,8 +21,4 @@ img {
 
 .wrapper {
 	text-align: center;
-}
-
-button {
-	position: absolute;
 }
