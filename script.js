@@ -1,1 +1,3 @@
-document.getElementById("test").innerHTML = "Ayy Lmao.";
+function ayyLmao(){ 
+	document.getElementById("test").innerHTML = "Ayy Lmao.";
+};

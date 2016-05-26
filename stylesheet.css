@@ -14,4 +14,7 @@ img {
 
 .output {
 	background-color: #b1cdcd;
+	border-style: solid;
+	border-width: 15px;
+	border-color: #264d73;
 }
