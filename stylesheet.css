@@ -11,6 +11,27 @@ img {
 	padding: 0px, 50px, 0px, 50px;
 }
 
+ul.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3399ff;
+}
+
+li.navbar {
+	float: left;
+}
+
+li.navbar a {
+	display: block;
+	color: #3400ff;
+}
+
+li.navbar a:hover {
+	background-color: #111;
+}
+
 .output {
 	background-color: #b1cdcd;
 	text-align: center;

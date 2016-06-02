@@ -1,9 +1,13 @@
+function output(text){
+	document.getElementById("output").innerHTML = text;
+}
+
 function resetOutput(){
-	document.getElementById("test").innerHTML = "( ͡° ͜ʖ ͡°)";
+	output("( ͡° ͜ʖ ͡°)");
 };
 
 function ayyLmao(){ 
-	document.getElementById("test").innerHTML = "Ayy Lmao.";
+	output("Ayy Lmao.");
 	setTimeout(resetOutput,3000);
 };
 
