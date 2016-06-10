@@ -4,6 +4,10 @@ body {
 	background-color: #b3cce6;
 }
 
+.navbar div {
+	background-color: #2e5cb8;
+}
+
 .navbar a {
 	display: inline-block;
 }
