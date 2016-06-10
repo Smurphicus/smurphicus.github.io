@@ -1,6 +1,18 @@
+/*Constants*/
+
 body {
 	background-color: #b3cce6;
 }
+
+.navbar a {
+	display: inline-block;
+}
+
+.navbar a.active {
+	background-color: #ffffff;
+}
+
+/*End Constants*/
 
 p {
 	font-family: "Arial Black",sans-serif;
@@ -9,27 +21,6 @@ p {
 
 img {
 	padding: 0px, 50px, 0px, 50px;
-}
-
-ul.navbar {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #3399ff;
-}
-
-li.navbar {
-	float: left;
-}
-
-li.navbar a {
-	display: block;
-	color: #3400ff;
-}
-
-li.navbar a:hover {
-	background-color: #111;
 }
 
 .output {
