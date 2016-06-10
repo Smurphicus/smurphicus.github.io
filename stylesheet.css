@@ -6,12 +6,12 @@ body {
 
 .navbar div {
 	background-color: #2e5cb8;
-	font-size: 24;
-	font-family: "Arial Black" sans-serif;
 }
 
 .navbar a {
 	display: inline-block;
+	font-size: 24;
+	font-family: "Arial Black" sans-serif;
 }
 
 .navbar a.active {
