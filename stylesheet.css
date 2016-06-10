@@ -12,11 +12,8 @@ body {
 	padding: 0;
 	overflow: hidden;
 	background-color: #336699;
+	border-radius: 25px;
 }
-
-/*.navbar div {
-	background-color: #2e5cb8;
-}*/
 
 .navbar li {
 	float: left;
