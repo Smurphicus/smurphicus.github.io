@@ -1,10 +1,8 @@
 /*Constants*/
 
 body {
-	background-color: #b3cce6;
+	background-color: #cce6ff;
 }
-
-
 
 .navbar ul {
 	list-style-type: none;
@@ -28,7 +26,7 @@ body {
 }
 
 .navbar a:hover:not(.active) {
-	background-color: #111;
+	background-color: #538cc6;
 }
 
 .navbar a.active {
