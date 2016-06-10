@@ -4,14 +4,34 @@ body {
 	background-color: #b3cce6;
 }
 
-.navbar div {
+
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #336699;
+}
+
+/*.navbar div {
 	background-color: #2e5cb8;
+}*/
+
+.navbar li {
+	float: left;
 }
 
 .navbar a {
 	display: inline-block;
-	font-size: 24;
-	font-family: "Arial Black" sans-serif;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+	background-color: #111;
 }
 
 .navbar a.active {
