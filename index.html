@@ -9,7 +9,7 @@
 <body>
 <script type="text/javascript" src="script.js"></script>
 
-<div class="navbar" style="position: static; top:0px;">
+<div class="navbar" style="position: fixed; top: 0;">
 	<div style="overflow: auto;">
 		<div style="float: left; overflow: hidden; height: 48px;">
 			<a href="index.html" class="navbar">Home</a>
@@ -18,15 +18,19 @@
 	</div>
 </div>
 
-<p>Hello World!</p>
+<div class="main">
 
-<div class="wrapper">
-<img src="noticeme.png">
-</br>
-<button type="button" onclick="ayyLmao()">Ayy Lmao?</button>
+	<p>Hello World!</p>
+
+	<div class="wrapper">
+		<img src="noticeme.png">
+		</br>
+		<button type="button" onclick="ayyLmao()">Ayy Lmao?</button>
+	</div>
+
+	<p class="output" id="output">( ͡° ͜ʖ ͡°)</p>
+
 </div>
-
-<p class="output" id="output">( ͡° ͜ʖ ͡°)</p>
 
 </body>
 
