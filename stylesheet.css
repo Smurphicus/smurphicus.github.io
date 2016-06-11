@@ -20,6 +20,7 @@ body {
 
 .navbar li {
 	float: left;
+	vertical-align: center;
 }
 
 .navbar a {
