@@ -23,6 +23,7 @@ body {
 	text-align: center;
 	padding: 16px 20px;
 	text-decoration: none;
+	font-family: "Arial Black" sans-serif;
 }
 
 .navbar a:hover:not(.active) {
