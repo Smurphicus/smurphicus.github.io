@@ -7,6 +7,7 @@ body {
 .navbar {
 	font-family: "Arial Black" sans-serif;
 	font-size: 16px;
+	padding-bottom: 20px;
 }
 
 .navbar ul {
@@ -61,3 +62,8 @@ img {
 .wrapper {
 	text-align: center;
 }
+
+canvas {
+	margin: auto;
+	display: block;
+  }
