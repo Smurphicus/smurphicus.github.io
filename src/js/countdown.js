@@ -4,7 +4,7 @@ const arrivalTimes = {
     "joshCountdown" : new Date('2024-08-22T01:05:00').getTime(),
     "dayMattCountdown" : new Date('2024-08-22T01:05:00').getTime(),
     "chezCountdown" : new Date('2024-08-26T20:05:00').getTime(),
-    "craftCountdown" : new Date('2024-08-24T00:00:00').getTime()
+    "craftCountdown" : new Date('2024-08-25T11:05:00').getTime()
 }
 
 function getCountdownString(targetDate) {
