@@ -9,3 +9,7 @@
     width: 50%;
     border: 2px dashed #336699;
 }
+
+div::first-letter {
+    text-transform: capitalize;
+}
