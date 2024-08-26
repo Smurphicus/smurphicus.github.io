@@ -25,7 +25,11 @@ function getCountdownString(targetDate) {
 
 const interval = setInterval(() => {
     for (const [key, value] of Object.entries(arrivalTimes))  {
-        document.getElementById(key).innerHTML = key.substring(0, key.length-9) + ": " +getCountdownString(value);
+        if (key == "chezCountdown") {
+            document.getElementById(key).innerHTML = key.substring(0, key.length-9) + ": trapped in Ethiopia"
+        } else {
+            document.getElementById(key).innerHTML = key.substring(0, key.length-9) + ": " +getCountdownString(value);
+        }
         if (document.getElementById(key).innerHTML < 0) {
             clearInterval(interval);
             document.getElementById('countdown').innerHTML =  key + ' complete.';
